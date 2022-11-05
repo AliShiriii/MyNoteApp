@@ -4,14 +4,9 @@ buildscript {
 
     ext {
         kotlin_version = "1.5.20"
-        nav_version = "2.3.2"
-        material_version = "1.2.1"
-        core_version = "1.0.1"
-        vertion_navigation = "2.5.3"
         vertion_navigation = "2.5.3"
         version_room = "2.2.6"
         version_multidex = "2.0.1"
-        design_version = "30.0.0"
         version_coroutine = "1.6.1"
         version_lifecycle_extensions = "2.2.0"
         lifecycle_version = "2.5.1"
@@ -20,11 +15,6 @@ buildscript {
         hilt_viewModels = "2.2.0-alpha02"
         hilt_compiler = "1.0.0"
         hilt_androidx_viewmodel = "1.0.0-alpha03"
-        paging_version_runtime = "1.0.1"
-        paging_version_runtime_ktx = "3.0.0-alpha10"
-        picasso_version = "2.71828"
-        glide_version = "4.11.0"
-
         circleImageView_version = "3.1.0"
         ssp_version = "1.0.6"
         sdp_version = "1.0.6"
