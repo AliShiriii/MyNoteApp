@@ -9,10 +9,13 @@
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/background_search.xml" value="0.15" />
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/ic_add.xml" value="0.15" />
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/ic_back.xml" value="0.1215" />
+        <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/ic_image.xml" value="0.15" />
+        <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/ic_link.xml" value="0.15" />
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/ic_search.xml" value="0.15" />
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/drawable/ic_tick.xml" value="0.15" />
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Ali/Desktop/MyNoteApp/app/src/main/res/layout/fragment_new_note.xml" value="0.25052083333333336" />
       </map>
     </option>
   </component>

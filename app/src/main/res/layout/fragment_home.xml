@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bachGroundInHome"
-    tools:context=".HomeFragment">
+    tools:context=".view.HomeFragment">
 
     <TextView
         android:id="@+id/notesTitle"
@@ -27,11 +27,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_10sdp"
-        android:queryHint="@string/search"
-        android:iconifiedByDefault="false"
-        android:theme="@style/ThemeOverlay.Search"
         android:background="@drawable/background_search"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/search"
         android:searchIcon="@drawable/ic_search"
+        android:theme="@style/ThemeOverlay.Search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/notesTitle" />
@@ -80,10 +80,11 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCreateNote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_20sdp"
         android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
         android:background="@color/white"
         android:src="@drawable/ic_add"
         android:tint="@color/white"

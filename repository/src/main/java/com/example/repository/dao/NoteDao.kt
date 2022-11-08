@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.repository.entitis.Note
 
+@Dao
 interface NoteDao {
 
     //Insert
@@ -11,11 +12,11 @@ interface NoteDao {
     suspend fun insertNote(note: Note)
 
     //Update
-    @Update()
+    @Update
     suspend fun updateNote(note: Note)
 
     //Delete
-    @Delete()
+    @Delete
     suspend fun deleteNote(note: Note)
 
     //Query for get all notes
