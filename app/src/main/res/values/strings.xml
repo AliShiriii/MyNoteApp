@@ -31,4 +31,5 @@
 هم زمان نامناسبه و هم رفتار غیر حرفه ای </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">date</string>
 </resources>
