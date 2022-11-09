@@ -21,7 +21,7 @@ interface NoteDao {
 
     //Query for get all notes
     @Query("SELECT * FROM notes ORDER BY id DESC")
-    fun getAlNotes(): LiveData<List<Note>>
+    fun getAllNotes(): LiveData<List<Note>>
 
     //Query fore search notes
     @Query("SELECT * FROM notes ORDER BY title LIKE :query OR subTitle LIKE :query")
